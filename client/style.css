@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0f172a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Undo Button */
+
+.undo-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow:
+    0 10px 25px rgba(79, 70, 229, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  z-index: 10;
+}
+
+.undo-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow:
+    0 14px 30px rgba(79, 70, 229, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.undo-btn:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow:
+    0 6px 16px rgba(79, 70, 229, 0.35),
+    inset 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.undo-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  box-shadow: none;
+}
