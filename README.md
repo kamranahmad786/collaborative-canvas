@@ -34,7 +34,24 @@ Built using **HTML5 Canvas**, **Node.js**, and **WebSockets (Socket.io)** with s
 
 ##  Project Structure
 
-
+```
+collaborative-canvas/
+├── .gitignore
+├── ARCHITECTURE.md
+├── README.md
+├── client/
+│   ├── canvas.js
+│   ├── index.html
+│   ├── main.js
+│   ├── style.css
+│   └── websocket.js
+├── package-lock.json
+├── package.json
+└── server/
+    ├── rooms.js
+    ├── server.js
+    └── state-manager.js
+```
 
 
 
