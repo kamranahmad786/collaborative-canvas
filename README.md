@@ -40,8 +40,8 @@ Built using **HTML5 Canvas**, **Node.js**, and **WebSockets (Socket.io)** with s
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
-```bash
+1️⃣ Clone the repository
+
 git clone https://github.com/<your-username>/collaborative-canvas.git
 cd collaborative-canvas
 
