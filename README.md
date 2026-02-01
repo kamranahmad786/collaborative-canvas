@@ -1,24 +1,24 @@
-# 🎨 Real-Time Collaborative Drawing Canvas
+#  Real-Time Collaborative Drawing Canvas
 
 A real-time multi-user drawing application where multiple users can draw simultaneously on a shared canvas.  
 Built using **HTML5 Canvas**, **Node.js**, and **WebSockets (Socket.io)** with server-authoritative state synchronization.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🖊️ Real-time collaborative drawing
-- 🌐 Multi-user synchronization using WebSockets
-- 🧠 Server-side authoritative state
-- 🔄 Global Clear Canvas (Undo) functionality
-- 🖥️ Retina / HiDPI display support
-- ⚡ Low-latency drawing updates
-- 🧱 Clean client–server architecture
-- 🎯 No third-party canvas libraries (pure Canvas API)
+-  Real-time collaborative drawing
+-  Multi-user synchronization using WebSockets
+-  Server-side authoritative state
+-  Global Clear Canvas (Undo) functionality
+-  Retina / HiDPI display support
+-  Low-latency drawing updates
+-  Clean client–server architecture
+-  No third-party canvas libraries (pure Canvas API)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - HTML5 Canvas API
@@ -32,13 +32,13 @@ Built using **HTML5 Canvas**, **Node.js**, and **WebSockets (Socket.io)** with s
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 
 
 
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1️⃣ Clone the repository
 
